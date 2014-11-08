@@ -19,6 +19,7 @@
 #ifndef _WSPIAPIWRAP_H
 #define _WSPIAPIWRAP_H
 
+#if (_MSC_VER <= 1500)
 // HACK. See wspiapiwrap.c
 #	define getaddrinfo WspiapiGetAddrInfo
 #	define getnameinfo WspiapiGetNameInfo
@@ -28,6 +29,9 @@ int WINAPI WspiapiGetAddrInfo(const char *nodename, const char *servname,
 		const struct addrinfo *hints, struct addrinfo **res);
 int WINAPI WspiapiGetNameInfo (const struct sockaddr *sa, socklen_t salen,
 		char *host, size_t hostlen, char *serv, size_t servlen, int flags);
+#else
+#include <wspiapi.h>
+#endif
 
 #endif  /* _WSPIAPIWRAP_H */
 
