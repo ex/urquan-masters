@@ -1,0 +1,2924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4c7a94b3-eb71-4de8-a302-4ab0220c152c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\getopt">
+      <UniqueIdentifier>{44d55108-c0ce-4659-9454-3ebaf4777cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\regex">
+      <UniqueIdentifier>{f497cbb9-9483-4882-9711-61d85654468f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{1b8a73d9-0fd7-451c-b5ba-003677572265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\callback">
+      <UniqueIdentifier>{64231514-df33-413e-8ec3-9276555f423f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\decomp">
+      <UniqueIdentifier>{168655b1-0ee7-4cb6-94c6-98ba050da193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\file">
+      <UniqueIdentifier>{31fd62f1-0c81-48c1-a5c6-9b3c1054bdc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\graphics">
+      <UniqueIdentifier>{1a3d58ec-5c72-4ace-8a9a-0153d591fa17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\graphics\sdl">
+      <UniqueIdentifier>{4a9d3ab3-a537-4a88-ae5c-d721a0da0378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\heap">
+      <UniqueIdentifier>{dbe737f5-eb0e-475a-b794-3832720dc837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\input">
+      <UniqueIdentifier>{e665071e-cc61-49d0-b68b-3647ea6dd066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\input\sdl No. 1">
+      <UniqueIdentifier>{e21df20c-484e-416b-95ae-d94289b75fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\list">
+      <UniqueIdentifier>{0e7f9604-a61d-4c4f-b1ac-add3b6c79c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\lua">
+      <UniqueIdentifier>{7654c9f3-023b-4420-9387-8c6fe99737df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\luauqm">
+      <UniqueIdentifier>{82679a6a-3f94-4412-96b1-488d5df7d1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\log">
+      <UniqueIdentifier>{1e66c69d-325b-4e3e-831f-84f35af3431e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\math">
+      <UniqueIdentifier>{38411f13-7783-4b45-ba3e-46068657d91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\md5">
+      <UniqueIdentifier>{dbf235ef-a0d3-4ea6-94c1-e39ed55ed893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\memory">
+      <UniqueIdentifier>{43880e31-dfd6-4f1c-b1be-536bd5c6bc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\resource">
+      <UniqueIdentifier>{a755ea9f-acfd-4e6c-a16f-786c53d079a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\sound">
+      <UniqueIdentifier>{9c7bf646-6a8b-43c5-9069-a3122d208c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\sound\openal">
+      <UniqueIdentifier>{1525b434-4a00-4261-a8d9-b7c1d6a4cdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\sound\decoders">
+      <UniqueIdentifier>{8cf7603f-7c0a-4d0c-baf8-15f486a7314c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\sound\mixer">
+      <UniqueIdentifier>{0927a078-a95b-4d0f-bcdb-f1d170f1a6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\sound\mixer\mixsdl">
+      <UniqueIdentifier>{e07417d9-8eb5-4c01-b22e-903973fac61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\sound\mixer\nosound">
+      <UniqueIdentifier>{15ba7f49-eaa2-4780-9cc3-0beff19c673c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\strings">
+      <UniqueIdentifier>{2be19742-c5f9-4d49-bd80-f0312c20c584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\video">
+      <UniqueIdentifier>{a355bae8-5f62-4887-92d2-276599e15c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\threads">
+      <UniqueIdentifier>{42c6e3f6-5e0e-406d-acd9-e6296a07e630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\threads\sdl No. 3">
+      <UniqueIdentifier>{2760793f-1c9d-49c2-85b7-85d0f3238366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\time">
+      <UniqueIdentifier>{ae501753-8d76-4309-9617-4e1e88d7e347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\time\sdl No. 4">
+      <UniqueIdentifier>{6f5f2dc1-b1e0-4f15-bd61-9d87e23f909a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\task">
+      <UniqueIdentifier>{a3da9ee4-db5e-4d30-b477-9e07b9907868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\uio">
+      <UniqueIdentifier>{9398b70b-b9e5-4a9e-8a23-1c6023ad2756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\uio\stdio">
+      <UniqueIdentifier>{8e73af23-b461-471e-af23-1953f7c09035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\uio\zip">
+      <UniqueIdentifier>{aff016ed-961c-4c90-9973-ec3d85163445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\mikmod">
+      <UniqueIdentifier>{8f1ad5a0-6b8f-41d8-87bb-bcb5dfd37392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\network">
+      <UniqueIdentifier>{b00f4375-7d05-42e1-b2be-78654e53b694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\network\connect">
+      <UniqueIdentifier>{480da6ad-7955-404c-afcf-5efee13f0a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\network\netmanager">
+      <UniqueIdentifier>{52008e2a-8c97-4e5c-bee1-178ac02f0618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\network\socket">
+      <UniqueIdentifier>{35c2538f-0113-48a8-96ad-430142046aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm">
+      <UniqueIdentifier>{abbb0e96-0290-4b48-8dfb-ee0293910ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm">
+      <UniqueIdentifier>{0396be1d-d26e-444b-bd53-ece43e625904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\arilou.comm">
+      <UniqueIdentifier>{654ca348-b46d-429f-a535-822de88a6376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\blackur.comm">
+      <UniqueIdentifier>{424a66f0-378e-4349-8c1a-53166c3aaa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\chmmr.comm">
+      <UniqueIdentifier>{65adc9c0-fdf7-4fb8-a70a-1624eebe922f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\comandr.comm">
+      <UniqueIdentifier>{da2907e4-9fc3-4624-8709-7c0ce43afa21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\druuge.comm">
+      <UniqueIdentifier>{c1e1dd14-314f-4f43-899f-89c460c92d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\ilwrath.comm">
+      <UniqueIdentifier>{4f297b36-f6b5-4790-8d7b-250750821dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\melnorm.comm">
+      <UniqueIdentifier>{8f0bfb1f-1094-414d-9cba-e5b59876dac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\mycon.comm">
+      <UniqueIdentifier>{ee272ee0-7322-47a8-a47b-6697f6a2d546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\orz.comm">
+      <UniqueIdentifier>{9dee48ec-32d0-4f80-9f4a-da48eec899b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\pkunk.comm">
+      <UniqueIdentifier>{14aa2909-f046-4487-be84-d776b586e4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\rebel.comm">
+      <UniqueIdentifier>{ccab4370-09f7-44ba-8417-5995d9f44424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\shofixt.comm">
+      <UniqueIdentifier>{b7fb35ae-f0ad-40ed-b329-c1cf7bf55509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\slyhome.comm">
+      <UniqueIdentifier>{2644f9cf-20f5-4b3b-9d62-72cf021dd7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\slyland.comm">
+      <UniqueIdentifier>{bf6ac370-4bfc-47ba-a4f0-b5a0dd54275f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\spahome.comm">
+      <UniqueIdentifier>{d0ff02c2-bdb3-48d3-80be-5738cc17be40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\spathi.comm">
+      <UniqueIdentifier>{e6243df7-53ba-460e-825b-67cc6977fd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\starbas.comm">
+      <UniqueIdentifier>{ffdcb756-b8f1-431d-9f84-74a7c4626bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\supox.comm">
+      <UniqueIdentifier>{66cbbb8d-ded3-452f-a3b7-dd7d26df2d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\syreen.comm">
+      <UniqueIdentifier>{18fa8672-6390-4110-ad16-0b11628d45bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\talkpet.comm">
+      <UniqueIdentifier>{0b8f0539-5b0c-4db8-bb2d-4417c5cdb4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\thradd.comm">
+      <UniqueIdentifier>{2b3fc102-d586-40c0-92d9-f5c3234bad00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\umgah.comm">
+      <UniqueIdentifier>{c254e0bb-7218-4177-afbb-da41c97653e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\urquan.comm">
+      <UniqueIdentifier>{440cb265-f2d3-475e-b28e-ad655dd23cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\utwig.comm">
+      <UniqueIdentifier>{b80c4811-3306-43a8-b688-6e86ce2a93f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\vux.comm">
+      <UniqueIdentifier>{cae0dcda-c663-4ba6-ac36-9f08abe82321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\yehat.comm">
+      <UniqueIdentifier>{52cae5e3-3955-4444-b077-573885cf8b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\comm\zoqfot.comm">
+      <UniqueIdentifier>{2bf19e01-f0d5-45cc-affa-745af2f8b095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\lua %28uqm%29">
+      <UniqueIdentifier>{c82c166c-2d9e-410d-9853-65f0fdbfa40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\lua %28uqm%29\luafuncs">
+      <UniqueIdentifier>{bf7304bb-2df5-44fe-8249-3802ab4b6470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\planets">
+      <UniqueIdentifier>{34efde1a-c096-43bc-a560-337d29935aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\planets\generate">
+      <UniqueIdentifier>{8c2d778a-0907-467b-b195-c07f8805aab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships">
+      <UniqueIdentifier>{d2843df0-a0a8-4736-b2d8-cc0ef5613e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\androsyn">
+      <UniqueIdentifier>{5990753b-1920-4bab-83e0-826d51eee3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\arilou">
+      <UniqueIdentifier>{dbd91264-3ab3-4d6b-b285-3667af079dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\blackurq">
+      <UniqueIdentifier>{14750260-2526-46b9-bd72-7432bf045f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\chenjesu">
+      <UniqueIdentifier>{d5e62095-1a87-4060-97b0-a06cc726e551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\chmmr">
+      <UniqueIdentifier>{ffdcdb69-c2b7-44d5-9c25-e916e8902fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\druuge">
+      <UniqueIdentifier>{780b7b8d-946c-4480-829a-dbd57d3ca425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\human">
+      <UniqueIdentifier>{75933925-d8c5-4038-9845-12bdba0bb2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\ilwrath">
+      <UniqueIdentifier>{1e9fdfce-1bb8-482a-8837-684acad82d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\lastbat">
+      <UniqueIdentifier>{febe537c-4ef7-4d42-bfee-a4b3b0f41481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\melnorme">
+      <UniqueIdentifier>{f40a1582-4d00-4bf9-aec2-b39eabf7efcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\mmrnmhrm">
+      <UniqueIdentifier>{01f3158b-094e-40b1-b8ea-b9c4315a633c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\mycon">
+      <UniqueIdentifier>{1ebb207d-10f4-481b-b6dc-1bf9518129af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\orz">
+      <UniqueIdentifier>{f5adf1d4-5953-42bd-8ad3-cba9262f2571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\pkunk">
+      <UniqueIdentifier>{db189623-e1df-48c5-a37b-1e4e7885bb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\probe">
+      <UniqueIdentifier>{1ccbc3f9-4822-4134-85bc-89183431a2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\shofixti">
+      <UniqueIdentifier>{890e0d49-759a-4a65-b7ff-c2aadaebf764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\sis_ship">
+      <UniqueIdentifier>{6ece8f3a-73b0-4178-b2cb-01f0d9dcc5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\slylandr">
+      <UniqueIdentifier>{2c1a92df-aab9-4127-87a7-808e981e92be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\spathi">
+      <UniqueIdentifier>{03c01de4-7dbe-48df-b741-67f69807dba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\supox">
+      <UniqueIdentifier>{08e71213-5430-4744-9e5c-ce5584445b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\syreen">
+      <UniqueIdentifier>{8ca2b209-d83c-4478-aaa3-faf5a04208de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\thradd">
+      <UniqueIdentifier>{008ef2c1-b502-487e-a9b4-6ead0f46cf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\umgah">
+      <UniqueIdentifier>{78c544e0-6733-4c49-8091-0f229f33ca08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\urquan">
+      <UniqueIdentifier>{a7a4bb15-3503-4adc-93ca-60b7fa3ee7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\utwig">
+      <UniqueIdentifier>{2d77b8ed-9a92-463c-a378-48c1c098b849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\vux">
+      <UniqueIdentifier>{9dfff054-238a-4684-816e-1d338bf307fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\yehat">
+      <UniqueIdentifier>{fdf66eb1-5f59-4042-9712-253959ea2e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\ships\zoqfot">
+      <UniqueIdentifier>{dd62de20-cfef-47a4-a162-f1bd5c260a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\supermelee">
+      <UniqueIdentifier>{7d5ee783-678a-4a4b-8bb1-11731303c369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\supermelee\netplay">
+      <UniqueIdentifier>{7fe6feba-9956-41f0-9d07-eacd3ce35302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uqm\supermelee\netplay\proto">
+      <UniqueIdentifier>{84dd970a-2824-4982-a9e7-fdbc4ab02131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{a22a9feb-c460-458d-9471-87e42631746d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc\Devel">
+      <UniqueIdentifier>{34694ac1-ab64-4f4a-8402-c0b78bfdb259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc\Users">
+      <UniqueIdentifier>{e802d2d0-04f6-4960-9c08-d2f5837b527e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3f35089c-8d71-4bfe-ad26-5c1567799393}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config_vc6.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\endian_uqm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\options.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\port.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqmversion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\getopt\getopt.h">
+      <Filter>Source Files\getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\regex\regex.h">
+      <Filter>Source Files\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\regex\regex_internal.h">
+      <Filter>Source Files\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\alarm.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\async.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\callback.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\compiler.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\declib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\file.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\gfxlib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\heap.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\inplib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\list.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\log.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\mathlib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\md5.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\memlib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\misc.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\net.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\platform.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\reslib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sndlib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\strlib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\tasklib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\threadlib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\timelib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\unicode.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\vidlib.h">
+      <Filter>Source Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\callback\alarm.h">
+      <Filter>Source Files\libs\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\callback\async.h">
+      <Filter>Source Files\libs\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\callback\callback.h">
+      <Filter>Source Files\libs\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\decomp\lzh.h">
+      <Filter>Source Files\libs\decomp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\file\filintrn.h">
+      <Filter>Source Files\libs\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\bbox.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\cmap.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\context.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\dcqueue.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\drawable.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\drawcmd.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\font.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\gfx_common.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\gfxintrn.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\prim.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\tfb_draw.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\tfb_prim.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\widgets.h">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\2xscalers.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\2xscalers_mmx.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\opengl.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\palette.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\primitives.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\pure.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\rotozoom.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\scaleint.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\scalemmx.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\scalers.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\sdl_common.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\graphics\sdl\sdluio.h">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\heap\heap.h">
+      <Filter>Source Files\libs\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\input\inpintrn.h">
+      <Filter>Source Files\libs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\input\input_common.h">
+      <Filter>Source Files\libs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\input\sdl\input.h">
+      <Filter>Source Files\libs\input\sdl No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\input\sdl\keynames.h">
+      <Filter>Source Files\libs\input\sdl No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\input\sdl\vcontrol.h">
+      <Filter>Source Files\libs\input\sdl No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\input\sdl\vcontrol_malloc.h">
+      <Filter>Source Files\libs\input\sdl No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\list\list.h">
+      <Filter>Source Files\libs\list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lapi.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lauxlib.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lcode.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lctype.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\ldebug.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\ldo.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lfunc.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lgc.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\llex.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\llimits.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lmem.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lobject.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lopcodes.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lparser.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lstate.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lstring.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\ltable.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\ltm.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lua.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\luaconf.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lualib.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lundump.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lvm.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\lua\lzio.h">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\luauqm\luauqm.h">
+      <Filter>Source Files\libs\luauqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\luauqm\scriptres.h">
+      <Filter>Source Files\libs\luauqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\log\loginternal.h">
+      <Filter>Source Files\libs\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\log\msgbox.h">
+      <Filter>Source Files\libs\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\log\uqmlog.h">
+      <Filter>Source Files\libs\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\math\mthintrn.h">
+      <Filter>Source Files\libs\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\math\random.h">
+      <Filter>Source Files\libs\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\md5\md5.h">
+      <Filter>Source Files\libs\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\resource\index.h">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\resource\propfile.h">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\resource\resintrn.h">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\resource\stringbank.h">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\audiocore.h">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\sndintrn.h">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\sound.h">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\stream.h">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\trackint.h">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\trackplayer.h">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\openal\audiodrv_openal.h">
+      <Filter>Source Files\libs\sound\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\decoders\aiffaud.h">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\decoders\decoder.h">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\decoders\dukaud.h">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\decoders\modaud.h">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\decoders\oggaud.h">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\decoders\wav.h">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\mixer\mixer.h">
+      <Filter>Source Files\libs\sound\mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\mixer\mixerint.h">
+      <Filter>Source Files\libs\sound\mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\mixer\sdl\audiodrv_sdl.h">
+      <Filter>Source Files\libs\sound\mixer\mixsdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\sound\mixer\nosound\audiodrv_nosound.h">
+      <Filter>Source Files\libs\sound\mixer\nosound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\strings\stringhashtable.h">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\strings\strintrn.h">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\video\dukvid.h">
+      <Filter>Source Files\libs\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\video\video.h">
+      <Filter>Source Files\libs\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\video\videodec.h">
+      <Filter>Source Files\libs\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\video\vidintrn.h">
+      <Filter>Source Files\libs\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\video\vidplayer.h">
+      <Filter>Source Files\libs\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\threads\thrcommon.h">
+      <Filter>Source Files\libs\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\threads\sdl\sdlthreads.h">
+      <Filter>Source Files\libs\threads\sdl No. 3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\time\timecommon.h">
+      <Filter>Source Files\libs\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\time\sdl\sdltime.h">
+      <Filter>Source Files\libs\time\sdl No. 4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\charhashtable.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\debug.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\defaultfs.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\fileblock.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\fstypes.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\getint.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\gphys.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\hashtable.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\io.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\ioaux.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\iointrn.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\match.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\mem.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\memdebug.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\mount.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\mounttree.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\paths.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\physical.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\types.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\uioport.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\uiostream.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\uioutils.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\utils.h">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\stdio\stdio.h">
+      <Filter>Source Files\libs\uio\stdio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\uio\zip\zip.h">
+      <Filter>Source Files\libs\uio\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\mikmod\mikmod.h">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\mikmod\mikmod_build.h">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\mikmod\mikmod_internals.h">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\bytesex.h">
+      <Filter>Source Files\libs\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\netport.h">
+      <Filter>Source Files\libs\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\network.h">
+      <Filter>Source Files\libs\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\wspiapiwrap.h">
+      <Filter>Source Files\libs\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\connect\connect.h">
+      <Filter>Source Files\libs\network\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\connect\listen.h">
+      <Filter>Source Files\libs\network\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\connect\resolve.h">
+      <Filter>Source Files\libs\network\connect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\netmanager\ndesc.h">
+      <Filter>Source Files\libs\network\netmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\netmanager\netmanager.h">
+      <Filter>Source Files\libs\network\netmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\netmanager\netmanager_win.h">
+      <Filter>Source Files\libs\network\netmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\socket\socket.h">
+      <Filter>Source Files\libs\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libs\network\socket\socket_win.h">
+      <Filter>Source Files\libs\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\battle.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\battlecontrols.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\build.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\clock.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\cnctdlg.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\coderes.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\collide.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\colors.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\commanim.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\commglue.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\cons_res.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\controls.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\corecode.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\credits.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\demo.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\displist.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\dummy.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\element.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\encount.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\flash.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\fmv.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\gameev.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\gameopt.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\gamestr.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\gendef.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\globdata.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\grpinfo.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\grpintrn.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\hyper.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ifontres.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\igfxres.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ikey_con.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\imusicre.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\init.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\intel.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ipdisp.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\isndres.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\istrtab.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\master.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\menustat.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\nameref.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\oscill.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\pickship.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\process.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\races.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\resinst.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\restart.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\restypes.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\save.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\settings.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\setup.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\setupmenu.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ship.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\shipcont.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\sis.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\sounds.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\starbase.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\starcon.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\starmap.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\state.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\status.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\tactrans.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\units.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\uqmdebug.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\util.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\velocity.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\weapon.h">
+      <Filter>Source Files\uqm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\commall.h">
+      <Filter>Source Files\uqm\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\arilou\resinst.h">
+      <Filter>Source Files\uqm\comm\arilou.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\arilou\strings.h">
+      <Filter>Source Files\uqm\comm\arilou.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\blackur\resinst.h">
+      <Filter>Source Files\uqm\comm\blackur.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\blackur\strings.h">
+      <Filter>Source Files\uqm\comm\blackur.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\chmmr\resinst.h">
+      <Filter>Source Files\uqm\comm\chmmr.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\chmmr\strings.h">
+      <Filter>Source Files\uqm\comm\chmmr.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\comandr\resinst.h">
+      <Filter>Source Files\uqm\comm\comandr.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\comandr\strings.h">
+      <Filter>Source Files\uqm\comm\comandr.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\druuge\resinst.h">
+      <Filter>Source Files\uqm\comm\druuge.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\druuge\strings.h">
+      <Filter>Source Files\uqm\comm\druuge.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\ilwrath\resinst.h">
+      <Filter>Source Files\uqm\comm\ilwrath.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\ilwrath\strings.h">
+      <Filter>Source Files\uqm\comm\ilwrath.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\melnorm\resinst.h">
+      <Filter>Source Files\uqm\comm\melnorm.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\melnorm\strings.h">
+      <Filter>Source Files\uqm\comm\melnorm.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\mycon\resinst.h">
+      <Filter>Source Files\uqm\comm\mycon.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\mycon\strings.h">
+      <Filter>Source Files\uqm\comm\mycon.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\orz\resinst.h">
+      <Filter>Source Files\uqm\comm\orz.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\orz\strings.h">
+      <Filter>Source Files\uqm\comm\orz.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\pkunk\resinst.h">
+      <Filter>Source Files\uqm\comm\pkunk.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\pkunk\strings.h">
+      <Filter>Source Files\uqm\comm\pkunk.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\rebel\strings.h">
+      <Filter>Source Files\uqm\comm\rebel.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\shofixt\resinst.h">
+      <Filter>Source Files\uqm\comm\shofixt.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\shofixt\strings.h">
+      <Filter>Source Files\uqm\comm\shofixt.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\slyhome\resinst.h">
+      <Filter>Source Files\uqm\comm\slyhome.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\slyhome\strings.h">
+      <Filter>Source Files\uqm\comm\slyhome.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\slyland\resinst.h">
+      <Filter>Source Files\uqm\comm\slyland.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\slyland\strings.h">
+      <Filter>Source Files\uqm\comm\slyland.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\spahome\strings.h">
+      <Filter>Source Files\uqm\comm\spahome.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\spathi\resinst.h">
+      <Filter>Source Files\uqm\comm\spathi.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\spathi\strings.h">
+      <Filter>Source Files\uqm\comm\spathi.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\starbas\strings.h">
+      <Filter>Source Files\uqm\comm\starbas.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\supox\resinst.h">
+      <Filter>Source Files\uqm\comm\supox.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\supox\strings.h">
+      <Filter>Source Files\uqm\comm\supox.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\syreen\resinst.h">
+      <Filter>Source Files\uqm\comm\syreen.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\syreen\strings.h">
+      <Filter>Source Files\uqm\comm\syreen.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\talkpet\resinst.h">
+      <Filter>Source Files\uqm\comm\talkpet.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\talkpet\strings.h">
+      <Filter>Source Files\uqm\comm\talkpet.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\thradd\resinst.h">
+      <Filter>Source Files\uqm\comm\thradd.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\thradd\strings.h">
+      <Filter>Source Files\uqm\comm\thradd.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\umgah\resinst.h">
+      <Filter>Source Files\uqm\comm\umgah.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\umgah\strings.h">
+      <Filter>Source Files\uqm\comm\umgah.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\urquan\resinst.h">
+      <Filter>Source Files\uqm\comm\urquan.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\urquan\strings.h">
+      <Filter>Source Files\uqm\comm\urquan.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\utwig\resinst.h">
+      <Filter>Source Files\uqm\comm\utwig.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\utwig\strings.h">
+      <Filter>Source Files\uqm\comm\utwig.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\vux\resinst.h">
+      <Filter>Source Files\uqm\comm\vux.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\vux\strings.h">
+      <Filter>Source Files\uqm\comm\vux.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\yehat\resinst.h">
+      <Filter>Source Files\uqm\comm\yehat.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\yehat\strings.h">
+      <Filter>Source Files\uqm\comm\yehat.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\zoqfot\resinst.h">
+      <Filter>Source Files\uqm\comm\zoqfot.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\comm\zoqfot\strings.h">
+      <Filter>Source Files\uqm\comm\zoqfot.comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luacomm.h">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luadebug.h">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luaevent.h">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luainit.h">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luastate.h">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luafuncs\commfuncs.h">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luafuncs\customfuncs.h">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luafuncs\eventfuncs.h">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luafuncs\logfuncs.h">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\lua\luafuncs\statefuncs.h">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\elemdata.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\generate.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\lander.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\lifeform.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\plandata.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\planets.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\scan.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\solarsys.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\sundata.h">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\generate\genall.h">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\planets\generate\gendefault.h">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\ship.h">
+      <Filter>Source Files\uqm\ships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\androsyn\androsyn.h">
+      <Filter>Source Files\uqm\ships\androsyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\androsyn\icode.h">
+      <Filter>Source Files\uqm\ships\androsyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\androsyn\resinst.h">
+      <Filter>Source Files\uqm\ships\androsyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\arilou\arilou.h">
+      <Filter>Source Files\uqm\ships\arilou</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\arilou\icode.h">
+      <Filter>Source Files\uqm\ships\arilou</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\arilou\resinst.h">
+      <Filter>Source Files\uqm\ships\arilou</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\blackurq\blackurq.h">
+      <Filter>Source Files\uqm\ships\blackurq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\blackurq\icode.h">
+      <Filter>Source Files\uqm\ships\blackurq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\blackurq\resinst.h">
+      <Filter>Source Files\uqm\ships\blackurq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\chenjesu\chenjesu.h">
+      <Filter>Source Files\uqm\ships\chenjesu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\chenjesu\icode.h">
+      <Filter>Source Files\uqm\ships\chenjesu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\chenjesu\resinst.h">
+      <Filter>Source Files\uqm\ships\chenjesu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\chmmr\chmmr.h">
+      <Filter>Source Files\uqm\ships\chmmr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\chmmr\icode.h">
+      <Filter>Source Files\uqm\ships\chmmr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\chmmr\resinst.h">
+      <Filter>Source Files\uqm\ships\chmmr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\druuge\druuge.h">
+      <Filter>Source Files\uqm\ships\druuge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\druuge\icode.h">
+      <Filter>Source Files\uqm\ships\druuge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\druuge\resinst.h">
+      <Filter>Source Files\uqm\ships\druuge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\human\human.h">
+      <Filter>Source Files\uqm\ships\human</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\human\icode.h">
+      <Filter>Source Files\uqm\ships\human</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\human\resinst.h">
+      <Filter>Source Files\uqm\ships\human</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\ilwrath\icode.h">
+      <Filter>Source Files\uqm\ships\ilwrath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\ilwrath\ilwrath.h">
+      <Filter>Source Files\uqm\ships\ilwrath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\ilwrath\resinst.h">
+      <Filter>Source Files\uqm\ships\ilwrath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\lastbat\icode.h">
+      <Filter>Source Files\uqm\ships\lastbat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\lastbat\lastbat.h">
+      <Filter>Source Files\uqm\ships\lastbat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\lastbat\resinst.h">
+      <Filter>Source Files\uqm\ships\lastbat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\melnorme\icode.h">
+      <Filter>Source Files\uqm\ships\melnorme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\melnorme\melnorme.h">
+      <Filter>Source Files\uqm\ships\melnorme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\melnorme\resinst.h">
+      <Filter>Source Files\uqm\ships\melnorme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\mmrnmhrm\icode.h">
+      <Filter>Source Files\uqm\ships\mmrnmhrm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\mmrnmhrm\mmrnmhrm.h">
+      <Filter>Source Files\uqm\ships\mmrnmhrm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\mmrnmhrm\resinst.h">
+      <Filter>Source Files\uqm\ships\mmrnmhrm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\mycon\icode.h">
+      <Filter>Source Files\uqm\ships\mycon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\mycon\mycon.h">
+      <Filter>Source Files\uqm\ships\mycon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\mycon\resinst.h">
+      <Filter>Source Files\uqm\ships\mycon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\orz\icode.h">
+      <Filter>Source Files\uqm\ships\orz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\orz\orz.h">
+      <Filter>Source Files\uqm\ships\orz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\orz\resinst.h">
+      <Filter>Source Files\uqm\ships\orz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\pkunk\icode.h">
+      <Filter>Source Files\uqm\ships\pkunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\pkunk\pkunk.h">
+      <Filter>Source Files\uqm\ships\pkunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\pkunk\resinst.h">
+      <Filter>Source Files\uqm\ships\pkunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\probe\icode.h">
+      <Filter>Source Files\uqm\ships\probe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\probe\probe.h">
+      <Filter>Source Files\uqm\ships\probe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\probe\resinst.h">
+      <Filter>Source Files\uqm\ships\probe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\shofixti\icode.h">
+      <Filter>Source Files\uqm\ships\shofixti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\shofixti\resinst.h">
+      <Filter>Source Files\uqm\ships\shofixti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\shofixti\shofixti.h">
+      <Filter>Source Files\uqm\ships\shofixti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\sis_ship\icode.h">
+      <Filter>Source Files\uqm\ships\sis_ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\sis_ship\resinst.h">
+      <Filter>Source Files\uqm\ships\sis_ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\sis_ship\sis_ship.h">
+      <Filter>Source Files\uqm\ships\sis_ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\slylandr\icode.h">
+      <Filter>Source Files\uqm\ships\slylandr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\slylandr\resinst.h">
+      <Filter>Source Files\uqm\ships\slylandr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\slylandr\slylandr.h">
+      <Filter>Source Files\uqm\ships\slylandr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\spathi\icode.h">
+      <Filter>Source Files\uqm\ships\spathi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\spathi\resinst.h">
+      <Filter>Source Files\uqm\ships\spathi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\spathi\spathi.h">
+      <Filter>Source Files\uqm\ships\spathi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\supox\icode.h">
+      <Filter>Source Files\uqm\ships\supox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\supox\resinst.h">
+      <Filter>Source Files\uqm\ships\supox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\supox\supox.h">
+      <Filter>Source Files\uqm\ships\supox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\syreen\icode.h">
+      <Filter>Source Files\uqm\ships\syreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\syreen\resinst.h">
+      <Filter>Source Files\uqm\ships\syreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\syreen\syreen.h">
+      <Filter>Source Files\uqm\ships\syreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\thradd\icode.h">
+      <Filter>Source Files\uqm\ships\thradd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\thradd\resinst.h">
+      <Filter>Source Files\uqm\ships\thradd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\thradd\thradd.h">
+      <Filter>Source Files\uqm\ships\thradd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\umgah\icode.h">
+      <Filter>Source Files\uqm\ships\umgah</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\umgah\resinst.h">
+      <Filter>Source Files\uqm\ships\umgah</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\umgah\umgah.h">
+      <Filter>Source Files\uqm\ships\umgah</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\urquan\icode.h">
+      <Filter>Source Files\uqm\ships\urquan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\urquan\resinst.h">
+      <Filter>Source Files\uqm\ships\urquan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\urquan\urquan.h">
+      <Filter>Source Files\uqm\ships\urquan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\utwig\icode.h">
+      <Filter>Source Files\uqm\ships\utwig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\utwig\resinst.h">
+      <Filter>Source Files\uqm\ships\utwig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\utwig\utwig.h">
+      <Filter>Source Files\uqm\ships\utwig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\vux\icode.h">
+      <Filter>Source Files\uqm\ships\vux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\vux\resinst.h">
+      <Filter>Source Files\uqm\ships\vux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\vux\vux.h">
+      <Filter>Source Files\uqm\ships\vux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\yehat\icode.h">
+      <Filter>Source Files\uqm\ships\yehat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\yehat\resinst.h">
+      <Filter>Source Files\uqm\ships\yehat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\yehat\yehat.h">
+      <Filter>Source Files\uqm\ships\yehat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\zoqfot\icode.h">
+      <Filter>Source Files\uqm\ships\zoqfot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\zoqfot\resinst.h">
+      <Filter>Source Files\uqm\ships\zoqfot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\ships\zoqfot\zoqfot.h">
+      <Filter>Source Files\uqm\ships\zoqfot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\buildpick.h">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\loadmele.h">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\melee.h">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\meleesetup.h">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\pickmele.h">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\checkbuf.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\checksum.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\crc.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netconnection.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netinput.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netmelee.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netmisc.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netoptions.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netplay.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netrcv.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netsend.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\netstate.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\notify.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\notifyall.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\packet.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\packethandlers.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\packetq.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\packetsenders.h">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\proto\npconfirm.h">
+      <Filter>Source Files\uqm\supermelee\netplay\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\proto\ready.h">
+      <Filter>Source Files\uqm\supermelee\netplay\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uqm\supermelee\netplay\proto\reset.h">
+      <Filter>Source Files\uqm\supermelee\netplay\proto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\getopt\getopt.c">
+      <Filter>Source Files\getopt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\getopt\getopt1.c">
+      <Filter>Source Files\getopt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\regex\regex.c">
+      <Filter>Source Files\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\callback\alarm.c">
+      <Filter>Source Files\libs\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\callback\async.c">
+      <Filter>Source Files\libs\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\callback\callback.c">
+      <Filter>Source Files\libs\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\decomp\lzdecode.c">
+      <Filter>Source Files\libs\decomp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\decomp\lzencode.c">
+      <Filter>Source Files\libs\decomp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\decomp\update.c">
+      <Filter>Source Files\libs\decomp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\file\dirs.c">
+      <Filter>Source Files\libs\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\file\files.c">
+      <Filter>Source Files\libs\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\bbox.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\boxint.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\clipline.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\cmap.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\context.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\dcqueue.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\drawable.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\filegfx.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\font.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\frame.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\gfx_common.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\gfxload.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\intersec.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\loaddisp.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\pixmap.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\resgfx.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\tfb_draw.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\tfb_prim.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\widgets.c">
+      <Filter>Source Files\libs\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\2xscalers.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\2xscalers_3dnow.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\2xscalers_mmx.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\2xscalers_sse.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\biadv2x.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\bilinear2x.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\canvas.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\hq2x.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\nearest2x.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\opengl.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\palette.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\primitives.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\pure.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\rotozoom.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\scalers.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\sdl_common.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\sdluio.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\graphics\sdl\triscan2x.c">
+      <Filter>Source Files\libs\graphics\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\heap\heap.c">
+      <Filter>Source Files\libs\heap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\input\input_common.c">
+      <Filter>Source Files\libs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\input\sdl\input.c">
+      <Filter>Source Files\libs\input\sdl No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\input\sdl\keynames.c">
+      <Filter>Source Files\libs\input\sdl No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\input\sdl\vcontrol.c">
+      <Filter>Source Files\libs\input\sdl No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\list\list.c">
+      <Filter>Source Files\libs\list</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lapi.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lauxlib.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lbaselib.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lbitlib.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lcode.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lctype.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\ldebug.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\ldo.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\ldump.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lfunc.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lgc.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\llex.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lmathlib.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lmem.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lobject.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lopcodes.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lparser.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lstate.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lstring.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lstrlib.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\ltable.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\ltablib.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\ltm.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lundump.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lvm.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\lua\lzio.c">
+      <Filter>Source Files\libs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\luauqm\luauqm.c">
+      <Filter>Source Files\libs\luauqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\luauqm\scriptres.c">
+      <Filter>Source Files\libs\luauqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\log\msgbox_win.c">
+      <Filter>Source Files\libs\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\log\uqmlog.c">
+      <Filter>Source Files\libs\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\math\random.c">
+      <Filter>Source Files\libs\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\math\random2.c">
+      <Filter>Source Files\libs\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\math\sqrt.c">
+      <Filter>Source Files\libs\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\md5\md5.c">
+      <Filter>Source Files\libs\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\memory\w_memlib.c">
+      <Filter>Source Files\libs\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\resource\direct.c">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\resource\filecntl.c">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\resource\getres.c">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\resource\loadres.c">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\resource\propfile.c">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\resource\resinit.c">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\resource\stringbank.c">
+      <Filter>Source Files\libs\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\audiocore.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\fileinst.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\music.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\resinst.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\sfx.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\sound.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\stream.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\trackplayer.c">
+      <Filter>Source Files\libs\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\openal\audiodrv_openal.c">
+      <Filter>Source Files\libs\sound\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\decoders\aiffaud.c">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\decoders\decoder.c">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\decoders\dukaud.c">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\decoders\modaud.c">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\decoders\oggaud.c">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\decoders\wav.c">
+      <Filter>Source Files\libs\sound\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\mixer\mixer.c">
+      <Filter>Source Files\libs\sound\mixer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\mixer\sdl\audiodrv_sdl.c">
+      <Filter>Source Files\libs\sound\mixer\mixsdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\sound\mixer\nosound\audiodrv_nosound.c">
+      <Filter>Source Files\libs\sound\mixer\nosound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\strings\getstr.c">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\strings\sfileins.c">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\strings\sresins.c">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\strings\stringhashtable.c">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\strings\strings.c">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\strings\unicode.c">
+      <Filter>Source Files\libs\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\video\dukvid.c">
+      <Filter>Source Files\libs\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\video\legacyplayer.c">
+      <Filter>Source Files\libs\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\video\vfileins.c">
+      <Filter>Source Files\libs\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\video\video.c">
+      <Filter>Source Files\libs\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\video\videodec.c">
+      <Filter>Source Files\libs\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\video\vidplayer.c">
+      <Filter>Source Files\libs\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\video\vresins.c">
+      <Filter>Source Files\libs\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\threads\thrcommon.c">
+      <Filter>Source Files\libs\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\threads\sdl\sdlthreads.c">
+      <Filter>Source Files\libs\threads\sdl No. 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\time\timecommon.c">
+      <Filter>Source Files\libs\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\time\sdl\sdltime.c">
+      <Filter>Source Files\libs\time\sdl No. 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\task\tasklib.c">
+      <Filter>Source Files\libs\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\charhashtable.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\debug.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\defaultfs.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\fileblock.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\fstypes.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\gphys.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\hashtable.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\io.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\ioaux.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\match.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\memdebug.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\mount.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\mounttree.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\paths.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\physical.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\uiostream.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\uioutils.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\utils.c">
+      <Filter>Source Files\libs\uio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\stdio\stdio.c">
+      <Filter>Source Files\libs\uio\stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\uio\zip\zip.c">
+      <Filter>Source Files\libs\uio\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\drv_nos.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\load_it.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\load_mod.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\load_s3m.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\load_stm.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\load_xm.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mdreg.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mdriver.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mloader.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mlreg.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mlutil.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mmalloc.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mmerror.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mmio.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mplayer.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\munitrk.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\mwav.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\npertab.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\sloader.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\virtch.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\virtch2.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\mikmod\virtch_common.c">
+      <Filter>Source Files\libs\mikmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\netport.c">
+      <Filter>Source Files\libs\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\network_win.c">
+      <Filter>Source Files\libs\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\connect\connect.c">
+      <Filter>Source Files\libs\network\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\connect\listen.c">
+      <Filter>Source Files\libs\network\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\connect\resolve.c">
+      <Filter>Source Files\libs\network\connect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\netmanager\ndesc.c">
+      <Filter>Source Files\libs\network\netmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\netmanager\netmanager_win.c">
+      <Filter>Source Files\libs\network\netmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\socket\socket.c">
+      <Filter>Source Files\libs\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libs\network\socket\socket_win.c">
+      <Filter>Source Files\libs\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\battle.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\battlecontrols.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\border.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\build.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\cleanup.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\clock.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\cnctdlg.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\collide.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\commanim.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\commglue.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\confirm.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\cons_res.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\credits.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\cyborg.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\displist.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\dummy.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\encount.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\flash.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\fmv.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\galaxy.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\gameev.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\gameinp.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\gameopt.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\gendef.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\getchar.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\globdata.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\gravity.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\grpinfo.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\hyper.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\init.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\intel.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\intro.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ipdisp.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\load.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\load_legacy.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\loadship.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\master.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\menu.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\misc.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\oscill.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\outfit.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\pickship.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\plandata.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\process.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\restart.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\save.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\settings.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\setup.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\setupmenu.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ship.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\shipstat.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\shipyard.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\sis.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\sounds.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\starbase.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\starcon.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\starmap.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\state.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\status.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\tactrans.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\trans.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\uqmdebug.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\util.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\velocity.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\weapon.c">
+      <Filter>Source Files\uqm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\arilou\arilouc.c">
+      <Filter>Source Files\uqm\comm\arilou.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\blackur\blackurc.c">
+      <Filter>Source Files\uqm\comm\blackur.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\chmmr\chmmrc.c">
+      <Filter>Source Files\uqm\comm\chmmr.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\comandr\comandr.c">
+      <Filter>Source Files\uqm\comm\comandr.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\druuge\druugec.c">
+      <Filter>Source Files\uqm\comm\druuge.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\ilwrath\ilwrathc.c">
+      <Filter>Source Files\uqm\comm\ilwrath.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\melnorm\melnorm.c">
+      <Filter>Source Files\uqm\comm\melnorm.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\mycon\myconc.c">
+      <Filter>Source Files\uqm\comm\mycon.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\orz\orzc.c">
+      <Filter>Source Files\uqm\comm\orz.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\pkunk\pkunkc.c">
+      <Filter>Source Files\uqm\comm\pkunk.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\rebel\rebel.c">
+      <Filter>Source Files\uqm\comm\rebel.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\shofixt\shofixt.c">
+      <Filter>Source Files\uqm\comm\shofixt.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\slyhome\slyhome.c">
+      <Filter>Source Files\uqm\comm\slyhome.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\slyland\slyland.c">
+      <Filter>Source Files\uqm\comm\slyland.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\spahome\spahome.c">
+      <Filter>Source Files\uqm\comm\spahome.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\spathi\spathic.c">
+      <Filter>Source Files\uqm\comm\spathi.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\starbas\starbas.c">
+      <Filter>Source Files\uqm\comm\starbas.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\supox\supoxc.c">
+      <Filter>Source Files\uqm\comm\supox.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\syreen\syreenc.c">
+      <Filter>Source Files\uqm\comm\syreen.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\talkpet\talkpet.c">
+      <Filter>Source Files\uqm\comm\talkpet.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\thradd\thraddc.c">
+      <Filter>Source Files\uqm\comm\thradd.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\umgah\umgahc.c">
+      <Filter>Source Files\uqm\comm\umgah.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\urquan\urquanc.c">
+      <Filter>Source Files\uqm\comm\urquan.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\utwig\utwigc.c">
+      <Filter>Source Files\uqm\comm\utwig.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\vux\vuxc.c">
+      <Filter>Source Files\uqm\comm\vux.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\yehat\yehatc.c">
+      <Filter>Source Files\uqm\comm\yehat.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\comm\zoqfot\zoqfotc.c">
+      <Filter>Source Files\uqm\comm\zoqfot.comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luacomm.c">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luadebug.c">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luaevent.c">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luainit.c">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luastate.c">
+      <Filter>Source Files\uqm\lua %28uqm%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luafuncs\commfuncs.c">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luafuncs\customfuncs.c">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luafuncs\eventfuncs.c">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luafuncs\logfuncs.c">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\lua\luafuncs\statefuncs.c">
+      <Filter>Source Files\uqm\lua %28uqm%29\luafuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\calc.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\cargo.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\devices.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\gentopo.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\lander.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\orbits.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\oval.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\pl_stuff.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\planets.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\plangen.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\pstarmap.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\report.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\roster.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\scan.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\solarsys.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\surface.c">
+      <Filter>Source Files\uqm\planets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genand.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genburv.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genchmmr.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gencol.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gendefault.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gendru.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genilw.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genmel.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genmyc.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genorz.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genpet.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genpku.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genrain.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gensam.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genshof.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gensly.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gensol.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genspa.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gensup.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gensyr.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genthrad.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\gentrap.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genutw.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genvault.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genvux.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genwreck.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genyeh.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genzfpscout.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\planets\generate\genzoq.c">
+      <Filter>Source Files\uqm\planets\generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\androsyn\androsyn.c">
+      <Filter>Source Files\uqm\ships\androsyn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\arilou\arilou.c">
+      <Filter>Source Files\uqm\ships\arilou</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\blackurq\blackurq.c">
+      <Filter>Source Files\uqm\ships\blackurq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\chenjesu\chenjesu.c">
+      <Filter>Source Files\uqm\ships\chenjesu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\chmmr\chmmr.c">
+      <Filter>Source Files\uqm\ships\chmmr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\druuge\druuge.c">
+      <Filter>Source Files\uqm\ships\druuge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\human\human.c">
+      <Filter>Source Files\uqm\ships\human</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\ilwrath\ilwrath.c">
+      <Filter>Source Files\uqm\ships\ilwrath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\lastbat\lastbat.c">
+      <Filter>Source Files\uqm\ships\lastbat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\melnorme\melnorme.c">
+      <Filter>Source Files\uqm\ships\melnorme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\mmrnmhrm\mmrnmhrm.c">
+      <Filter>Source Files\uqm\ships\mmrnmhrm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\mycon\mycon.c">
+      <Filter>Source Files\uqm\ships\mycon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\orz\orz.c">
+      <Filter>Source Files\uqm\ships\orz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\pkunk\pkunk.c">
+      <Filter>Source Files\uqm\ships\pkunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\probe\probe.c">
+      <Filter>Source Files\uqm\ships\probe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\shofixti\shofixti.c">
+      <Filter>Source Files\uqm\ships\shofixti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\sis_ship\sis_ship.c">
+      <Filter>Source Files\uqm\ships\sis_ship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\slylandr\slylandr.c">
+      <Filter>Source Files\uqm\ships\slylandr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\spathi\spathi.c">
+      <Filter>Source Files\uqm\ships\spathi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\supox\supox.c">
+      <Filter>Source Files\uqm\ships\supox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\syreen\syreen.c">
+      <Filter>Source Files\uqm\ships\syreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\thradd\thradd.c">
+      <Filter>Source Files\uqm\ships\thradd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\umgah\umgah.c">
+      <Filter>Source Files\uqm\ships\umgah</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\urquan\urquan.c">
+      <Filter>Source Files\uqm\ships\urquan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\utwig\utwig.c">
+      <Filter>Source Files\uqm\ships\utwig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\vux\vux.c">
+      <Filter>Source Files\uqm\ships\vux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\yehat\yehat.c">
+      <Filter>Source Files\uqm\ships\yehat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\ships\zoqfot\zoqfot.c">
+      <Filter>Source Files\uqm\ships\zoqfot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\buildpick.c">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\loadmele.c">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\melee.c">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\meleesetup.c">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\pickmele.c">
+      <Filter>Source Files\uqm\supermelee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\checkbuf.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\checksum.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\crc.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netconnection.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netinput.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netmelee.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netmisc.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netoptions.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netrcv.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netsend.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\netstate.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\notify.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\notifyall.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\packet.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\packethandlers.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\packetq.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\packetsenders.c">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\proto\npconfirm.c">
+      <Filter>Source Files\uqm\supermelee\netplay\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\proto\ready.c">
+      <Filter>Source Files\uqm\supermelee\netplay\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uqm\supermelee\netplay\proto\reset.c">
+      <Filter>Source Files\uqm\supermelee\netplay\proto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\regex\regcomp.ci">
+      <Filter>Source Files\regex</Filter>
+    </None>
+    <None Include="..\..\src\regex\regex_internal.ci">
+      <Filter>Source Files\regex</Filter>
+    </None>
+    <None Include="..\..\src\regex\regexec.ci">
+      <Filter>Source Files\regex</Filter>
+    </None>
+    <None Include="..\..\src\libs\network\netmanager\ndindex.ci">
+      <Filter>Source Files\libs\network\netmanager</Filter>
+    </None>
+    <None Include="..\..\src\libs\network\netmanager\netmanager_common.ci">
+      <Filter>Source Files\libs\network\netmanager</Filter>
+    </None>
+    <None Include="..\..\src\uqm\supermelee\netplay\nc_connect.ci">
+      <Filter>Source Files\uqm\supermelee\netplay</Filter>
+    </None>
+    <None Include="..\..\BUGS">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="..\..\ChangeLog">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="..\..\TODO">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="..\..\doc\devel\aniformat">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\checklist">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\debug">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\dialogs">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\files">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\fontres">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\generate">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\gfxlib">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\gfxres">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\gfxversions">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\glossary">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\input">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\musicres">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\pkgformat">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\planetrender">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\planetrotate">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\plugins">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\resources">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\script">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\sfx">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\strtab">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\threads">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\devel\timing">
+      <Filter>Doc\Devel</Filter>
+    </None>
+    <None Include="..\..\doc\users\unixinstall">
+      <Filter>Doc\Users</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\doc\users\manual.txt">
+      <Filter>Doc\Users</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\src\res\kohr-ah1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\src\res\sis1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\src\res\starcon2.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\src\res\ur-quan-icon-alpha.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\src\res\ur-quan-icon-std.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\src\res\ur-quan1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\src\res\ur-quan2.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\res\UrQuanMasters.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
